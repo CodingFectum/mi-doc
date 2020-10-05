@@ -1,0 +1,286 @@
+@font-face {
+  font-family: Roboto-thin;
+  src: url(fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+   font-family: 'Roboto-Regular';
+      src: url('fonts/Roboto-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Roboto-Medium';
+      src: url('fonts/Roboto-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Roboto-Bold';
+      src: url('fonts/Roboto-Bold.ttf') format('truetype');
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Roboto-Black';
+      src: url('fonts/Roboto-Black.ttf') format('truetype');
+   font-weight: 900;
+   font-style: normal;
+}
+
+*{font-family: 'Roboto-Regular';font-size: 15px;}
+.light-blue-bk{ color: #fff; background-color: #285CDB; }
+.dark-blue-bk{ color: #fff; background-color: #1C154A; }
+
+.mi-doc-logo{width: 70px;}
+
+.MD---home-about-section,.MD---home-contactus, .MD---home-doctor_section{
+	background-color: #FAFAFA; 
+}
+.MD---home-about-section h5,
+.MD---home-contactus h5,
+.MD---home-doctor_section h5,
+.MD---home-service-section h5,
+.MD---home-FAQ_section h5{
+	color: #285CDB;
+	font-size: 14px;
+}
+
+.MD---home-about-section h2,
+.MD---home-contactus h2,
+.MD---home-doctor_section h2,
+.MD---home-service-section h2,
+.MD---home-FAQ_section h2{
+	color: #333333;
+	font-size: 38px;
+}
+
+.MD---home-about-section p,
+.MD---home-contactus p,
+.MD---home-doctor_section p,
+.MD---home-service-section p,
+.MD---home-FAQ_section p{
+	color: #333333;
+	font-size: 15px;
+}
+
+.MD---home-about-section p span,
+.MD---home-contactus p span,
+.MD---home-doctor_section p span,
+.MD---home-service-section p span,
+.MD---home-FAQ_section p span{
+	color: #999999;
+}
+/*Header style start*/
+.MD---home-header{height: 65vh;}
+.MD---home-header .MD---home-header_img{
+	position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 60vh;
+}
+.MD---home-service-section li{
+	background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #d6d6d6;
+}
+.MD---home-service-section li i{
+    font-size: 36px; 
+    padding-top: 22px;
+    color: #285CDB;
+}
+.MD---home-service-section li a{
+    text-decoration: none;
+}
+.MD---home-service-section li p{
+    color: #333333;
+    font-size: 20px;
+}
+.MD---home-service-section li:hover,
+.MD---home-service-section li.active{
+	background-color: #1C154A;
+}
+.MD---home-service-section li:hover p,
+.MD---home-service-section li.active p{
+	color: #fff;
+}
+
+.MD---home-service-section li:hover i,
+.MD---home-service-section li.active i{
+    font-size: 36px; 
+    padding-top: 22px;
+    color: #fff;
+}
+.MD---home-service-section li p:nth-child(1){
+	background-color: #F7F6FE;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MD---home-service-section li:hover p:nth-child(1),
+.MD---home-service-section li.active p:nth-child(1){
+	background-color: #285CDB;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MD---home-service-section .card{
+	border-radius: 12px;
+	border:0px;
+    box-shadow: 1px 1px 5px #d6d6d6;
+}
+.MD---home-service-section .tab-content,
+.MD---home-service-section .tab-pane,
+.MD---home-service-section .card{
+	height: 100%;
+    min-height: fit-content;
+}
+.MD---home-service-section .card img{
+	height: 190px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+.MD---home-service-section .card p{
+	font-size: 13px;
+	color: #999999;
+}
+.MD---home-service-section .card h3{
+	color: #333333;
+}
+.MD---home-service-section .card a{
+	background-color: #285CDb;
+	font-size: 14px;
+	color: #fff;
+}
+.MD---home-doctor_section_Teamcard{
+	background-color: #F7F6FE;
+	border-radius: 10px;
+    box-shadow: 1px 1px 5px #d6d6d6;	
+}
+.MD---home-doctor_section_Teamcard img{
+	width: 60%;
+}
+.MD---home-doctor_section_Teamcard p{
+	font-size: 18px;
+	color: #333333;
+}
+.MD---home-doctor_section_Teamcard p span{
+	font-size: 13px;
+	color: #999999;
+}
+
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+
+.myaccordion .fa-stack {
+  font-size: 18px;
+}
+
+
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+#accordion .card{
+	border-radius: 10px;
+}
+#accordion .card-header {
+    padding: 0rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 0px;
+}
+
+#accordion button{
+	border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px 1px 5px #d6d6d6;
+	background-color: #285CDB;
+	width: 100%;
+	font-weight: bold;
+	/*color: #285cdb;*/
+	color: #fff;
+	padding: 0;
+}
+.myaccordion .btn i,
+.myaccordion .btn{
+	color: #fff;
+}
+#accordion .collapsed{
+	background-color: unset;
+	border-radius: 10px;
+	color: #285cdb;
+}
+#accordion .collapsed i{
+	color: #285cdb;
+}
+.collapse.show,.collapse.show p,.collapsing,.collapsing p{
+	background-color: #285CDB;
+	border-radius: 0px 0px 10px 10px;
+	color: #fff !important;
+}
+footer{background-color: #333333}
+footer img{width: 60px;}
+footer p,
+footer a{
+	color: #fff;
+}
+footer a:hover{
+	text-decoration: none;
+	color: #f4f4f4
+}
+.MD---link_color a{
+	background: #464646;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 50px;
+}
+/*Header Style end*/
+
+
+/*style for 768px start */
+@media screen and (max-width: 991px) {
+  	.MD---home-header .MD---home-header_img { height: 45vh; }
+  	.MD---home-header { height: 50vh; }
+  	.MD---home-about-section h2, .MD---home-contactus h2, .MD---home-doctor_section h2, .MD---home-service-section h2, .MD---home-FAQ_section h2{ font-size: 35px }
+  	.MD---home-service-section li:hover p:nth-child(1), .MD---home-service-section li.active p:nth-child(1),
+  	.MD---home-service-section li p:nth-child(1){
+  		height: 50px;
+  		width: 50px;
+  	}
+  	.MD---home-service-section li:hover i, .MD---home-service-section li.active i,.MD---home-service-section li i{font-size: 20px;padding-top: 16px;}
+  	.MD---home-service-section li p{font-size: 16px;}
+}
+/*style for 768px end */
+
+/*style for 320px start */
+@media screen and (max-width: 767px) {
+  	.MD---home-about-section h2, .MD---home-contactus h2, .MD---home-doctor_section h2, .MD---home-service-section h2, .MD---home-FAQ_section h2{ font-size: 30px }
+  	.MD---Home--mobile-div{
+  		background: rgb(28 21 74 / 79%);
+	    border-radius: 10px;
+	    padding: 16px 10px;
+  	}
+  	.MD---Home--mobile-div h1, .MD---Home--mobile-div p{color: #fff;}
+}
+/*style for 320px end */
